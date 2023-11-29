@@ -14,7 +14,7 @@ function start() {
         stream => video.srcObject = stream,
         err => console.error(err)
     )
-    
+
     console.log('video added')
     recognizeFaces()
 }
@@ -60,7 +60,7 @@ async function recognizeFaces() {
 
 
 function loadLabeledImages() {
-    const labels = ['Prashant Kumar'] 
+    const labels = ['Luis Fierro', 'Miguel Hernandez'] 
     return Promise.all(
         labels.map(async (label)=>{
             const descriptions = []
