@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Testing
+coverage
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# dotenv environment variables file
+.env
+
+# VSCode
+.vscode
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# .idea folder
+.idea/
+
+# .vscode folder
+.vscode/
